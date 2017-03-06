@@ -1,0 +1,84 @@
+# Header
+menu:
+  首页: /
+  文章: /archives
+  关于: /about
+# rss: /atom.xml
+
+# Content
+excerpt_link: 阅读全文
+fancybox: false
+mathjax: false
+
+# Sidebar
+sidebar: right
+widgets:
+- follow_mes
+- recommend_posts
+- category
+- tagcloud
+- archive
+- recent_comments
+
+# - official_accounts
+# - recent_posts
+# - tag
+# - links
+
+# Links
+links:
+  SegmentFault: https://segmentfault.com/
+
+# recommend_posts
+#recommend_posts:
+#  《JavaScript 闯关记》: /2016/07/24/javascript-lesson-readme/
+#  DSOframer的简单介绍和资源整理: /2015/09/02/dsoframer-introduction-resources/
+#  DSOframer微软官方API的查阅方法: /2015/09/11/dsoframer-frequently-asked-question2/
+#  DSOframer无法正常加载的解决方案: /2015/08/31/dsoframer-frequently-asked-question1/
+#  C#技术分享-PDF转图片的10种方法: /2012/02/15/office-pdf2image/
+#  C#技术分享-DOC转图片的3种方法: /2012/02/22/office-doc2image/
+#  DoNet开源项目-基于jQuery EasyUI的后台管理系统: /2015/08/30/donet-opensource-stonefw-introduction/
+#  DoNet开源项目-基于Amaze UI的点餐系统: /2016/01/17/donet-opensource-dian-introduction/
+#  Hexo官方主题landscape-plus优化: /2015/08/29/hexo-theme-landscape-plus-optimize/
+#  CSS基础知识之position: /2016/04/17/frontend-css-position-learning-note/
+ # CSS基础知识之float: /2016/06/10/frontend-css-float-learning-note/
+
+# Miscellaneous
+google_analytics:
+favicon: /img/logo.jpg
+twitter:
+google_plus:
+fb_admins: 
+fb_app_id:
+
+# Duoshuo
+duoshuo_shortname: dawns
+
+# Baidu share
+baidushare: true
+
+# Baidu statistic
+baidu_tongji: true
+
+# 文章尾部声明
+statement: true
+statement_img: 
+
+# 微信公众号展示
+official_accounts_img: 
+official_accounts_text: 订阅「于雷明的博客」
+
+# 关注我
+follow_mes:
+  我的「微信公众号」: 
+  我的「微博」: 
+  我的「知乎」: 
+  我的「简书」: 
+  我的「博客园」: 
+  我的「V2EX」: 
+  我的「CSDN」: 
+  我的「GitHub」: 
+  我的「SegmentFault」: 
+
+# 网站备案号
+website_icp: 

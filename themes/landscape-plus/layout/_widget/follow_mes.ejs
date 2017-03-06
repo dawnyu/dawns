@@ -1,0 +1,19 @@
+<div class="widget-wrap">
+  <h3 class="widget-title"><%= __('follow_mes') %></h3>
+  <div class="widget">
+    <ul>
+      <% var count = 0; %>
+      <% for (var i in (theme.follow_mes)){ %>
+        <% count++; %>
+        <% if (count == 1){ %>
+          <div style="text-align: center;">
+            <img src="<%= theme.follow_mes[i] %>" style="width: 100%; max-width: 250px;">
+          </div>
+        <% } %>
+        <li>
+          <a href="<%- theme.follow_mes[i] %>" target="_blank"><%= count %>. <%= i %></a>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>

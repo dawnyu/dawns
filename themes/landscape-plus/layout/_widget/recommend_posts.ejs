@@ -1,0 +1,14 @@
+<div class="widget-wrap">
+  <h3 class="widget-title"><%= __('recommend_posts') %></h3>
+  <div class="widget">
+    <ul>
+      <% var count = 0; %>
+      <% for (var i in (config.recommend_posts || theme.recommend_posts)){ %>
+        <% count++; %>
+        <li>
+          <a href="<%- theme.recommend_posts[i] %>" target="_blank"><%= count %>. <%= i %></a>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
