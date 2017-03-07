@@ -68,7 +68,11 @@ theme: landscape-plus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
 deploy:
-  type: git
-  repo:
-	github: git@github.com:dawnyu/https://github.com/dawnyu/dawns.git,master
+  type: rsync
+  host: 123.207.164.146
+  user: root
+  root: /home/www/dawns
+  port: 22
+  delete: true
