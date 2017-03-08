@@ -6,10 +6,10 @@
 title: dawns
 subtitle: dawns blog
 description: good good study day day up
-remark: 相识即是缘
+remark: 点点点点滴滴滴滴积累
 author: dawns
 language: zh-CN
-timezone: Asia/Beijing #时区
+timezone: Asia/Shanghai #时区
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -68,7 +68,5 @@ theme: landscape-plus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo:
-	github: git@github.com:dawnyu/https://github.com/dawnyu/dawns.git,master
+
+#deploy: 
