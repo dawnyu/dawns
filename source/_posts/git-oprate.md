@@ -27,6 +27,7 @@ demo    https://github.com/dawnyu/demo.git (push)
 origin  https://github.com/dawnyu/dawns.git (fetch)
 origin  https://github.com/dawnyu/dawns.git (push)
 ```
+<!--more-->
 **删除仓库**
 ```
 git remote rm [name]
