@@ -1,5 +1,5 @@
 -----
-基于vue-cli单页应用改成多页应用
+title: 基于vue-cli单页应用改成多页应用
 -----
 #### git地址
 `https://github.com/dawnyu/vue-cli-multipage.git`
@@ -12,7 +12,7 @@
 *  **webpack：1.13.2**
 *  **gulp：3.9.1**
 *  **ES6**
-<!--more-->
+
 ### 运行
 ```
 git clone https://github.com/dawnyu/vue-cli-multipage.git
